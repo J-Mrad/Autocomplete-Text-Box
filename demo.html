@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./autocomplete.css">
+  </head>
+  <body>
+    <center>
+      <h2>Autocomplete</h2>
+      <form autocomplete="off" action="/action_page.php">
+        <div class="autocomplete" style="width:300px;">
+          <input id="myInput" type="text" placeholder="Type Here">
+        </div>
+      </form>
+      <br>
+      <br>
+      <div id="suggestions_display"></div>
+    </center>
+  </body>
+
+  <!-- Keep below the input at it must be rendered first -->
+  <script src="./autocomplete.js"></script>
+</html>
